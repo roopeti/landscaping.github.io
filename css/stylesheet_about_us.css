@@ -2,7 +2,7 @@
     height           : 400px;
     background-repeat: no-repeat;
     background-size  : cover;
-    background-image : url("landscaping.github.io/pictures/landscape_japan.jpg");
+    background-image : url("https://raw.githubusercontent.com/roopeti/landscaping.github.io/main/pictures/landscape_japan.jpg");
     max-width        : 100%;
 }
 
