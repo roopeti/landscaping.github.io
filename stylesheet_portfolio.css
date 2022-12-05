@@ -1,0 +1,33 @@
+.grid-container {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding              : 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding         : 10px;
+    font-size       : 30px;
+    text-align      : center;
+    background-repeat: no-repeat;
+}
+
+.image-size {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width:1000px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

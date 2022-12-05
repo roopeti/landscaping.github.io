@@ -1,0 +1,289 @@
+.main-background-img {
+    height           : 400px;
+    background-repeat: no-repeat;
+    background-size  : cover;
+    background-image : url("main_page_banner.jpg");
+    max-width        : 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.img-main-page {
+    width  : 325px;
+    height : 215px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+@media only screen and (min-width:150px) {
+    .padding-tiny-mobile {
+        padding: 12px 6px !important;
+    }
+
+    .font-size-tiny {
+        font-size: 12px !important;
+    }
+
+    .width-100 {
+        width: 100% !important;
+    }
+
+    .img-pos {
+        left: 5px;
+        top : 50px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:460px) {
+    .padding-small-mobile {
+        padding: 10px 12px !important;
+    }
+
+    .font-size-small {
+        font-size: 15px !important;
+    }
+
+    .img-pos {
+        left: 10px;
+        top : 50px;
+    }
+}
+
+@media only screen and (min-width:620px) {
+    .padding-medium-mobile {
+        padding: 12px 24px !important;
+    }
+
+    .font-size-medium {
+        font-size: 18px !important;
+    }
+
+    .width-two-third {
+        width: 66% !important;
+    }
+
+    .img-pos {
+        left: 50px;
+        top : 50px;
+    }
+}
+
+@media only screen and (min-width:1130px) {
+    .img-pos {
+        left  : 700px;
+        bottom: 200px;
+        top: auto;
+    }
+}
+
+.validator-img {
+    border         : none;
+    height         : 31px;
+    width          : 31px;
+    text-decoration: none;
+}
+
+.top {
+    top     : 0;
+    position: fixed;
+    width   : 100%;
+    z-index : 1;
+}
+
+.bar {
+    width   : 100%;
+    overflow: hidden;
+}
+
+.red {
+    color           : #fff !important;
+    background-color: #f44336 !important;
+}
+
+.black {
+    color           : #fff !important;
+    background-color: #000 !important;
+}
+
+.light-grey {
+    color           : #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+.text-white {
+    color: #f1f1f1 !important;
+}
+
+.text-aqua {
+    color: aqua !important;
+}
+
+.text-red {
+    color: #f44336 !important;
+}
+
+.text-grey {
+    color: #757575 !important;
+}
+
+body {
+    font-size  : 15px;
+    line-height: 1.5;
+    margin     : 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin     : 10px 0;
+}
+
+.xsmall {
+    font-size: 7px !important;
+}
+
+.small {
+    font-size: 9px !important;
+}
+
+.normal {
+    font-size: 12px !important;
+}
+
+.large {
+    font-size: 18px !important;
+}
+
+.xlarge {
+    font-size: 24px !important;
+}
+
+.jumbo {
+    font-size: 64px !important;
+}
+
+.hover-white:hover {
+    color           : #000 !important;
+    background-color: #fff !important;
+}
+
+.white {
+    color           : #000 !important;
+    background-color: #fff !important;
+}
+
+.left-align {
+    text-align: left !important;
+}
+
+.img-float-right {
+    float: right !important;
+}
+
+.third {
+    width: 33.33333%;
+}
+
+.two-third {
+    width: 66.66666%;
+    float: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.bar-item {
+    padding: 8px 16px;
+    float  : left;
+    width  : auto;
+    border : none;
+    display: block;
+    outline: 0;
+}
+
+.shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.button {
+    border          : none;
+    display         : inline-block;
+    padding         : 8px 16px;
+    overflow        : hidden;
+    text-decoration : none;
+    color           : inherit;
+    background-color: inherit;
+    text-align      : center;
+    cursor          : pointer;
+    white-space     : nowrap;
+}
+
+.content {
+    margin-left : auto;
+    margin-right: auto;
+    max-width   : 980px;
+}
+
+.row-padding {
+    padding: 0 8px;
+}
+
+.padding-small {
+    padding: 4px 8px;
+}
+
+.padding {
+    padding: 8px 16px;
+}
+
+.padding-large {
+    padding: 12px 24px;
+}
+
+.padding-32 {
+    padding-top   : 32px !important;
+    padding-bottom: 32px !important;
+}
+
+.padding-64 {
+    padding-top   : 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.margin {
+    margin: 16px !important;
+}
+
+.margin-top {
+    margin-top: 16px !important;
+}

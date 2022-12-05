@@ -1,0 +1,11 @@
+.background-img {
+    height           : 400px;
+    background-repeat: no-repeat;
+    background-size  : cover;
+    background-image : url("landscape_japan.jpg");
+    max-width        : 100%;
+}
+
+.padding-top {
+    padding: 150px 0px 0px 0px;
+}
